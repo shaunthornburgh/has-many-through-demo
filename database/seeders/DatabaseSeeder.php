@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
          ]);
 
         $electronicsCategory = Category::factory()->create([
-            'name' => 'Clothes'
+            'name' => 'Electronics'
         ]);
 
         $tShirtProduct = Product::factory()->create([
